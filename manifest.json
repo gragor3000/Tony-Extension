@@ -1,0 +1,22 @@
+
+
+{
+  "manifest_version": 2,
+
+  "name": "One click Tony",
+  "description": "One click to get to Tony's channel",
+  "version": "1.0",
+	"homepage_url":"http://www.twitch.tv/rsgloryandgold",
+	"browser_action": {
+		"default_icon": "Tony.png"		
+	}, 
+  
+	"background":{
+		"scripts":["./ext/Background.js"]
+	},
+  "permissions": [
+    "tabs"
+    
+  ]
+
+}
